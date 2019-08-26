@@ -55,7 +55,7 @@ ENV PATH=${LLVM_DIR}/bin:$PATH
 # Install OpenMPI
 ENV OPENMPI_DIR=/opt/openmpi
 RUN OPENMPI_VERSION=4.0.0 && \
-    OPENMPI_VERSION_SHORT=3.1 && \
+    OPENMPI_VERSION_SHORT=4.0 && \
     OPENMPI_SHA1=b3c60e2bdd5a8a8e758fd741f9a5bebb84da5e81 && \
     OPENMPI_URL=https://download.open-mpi.org/release/open-mpi/v${OPENMPI_VERSION_SHORT}/openmpi-${OPENMPI_VERSION}.tar.bz2 && \
     OPENMPI_ARCHIVE=openmpi-${OPENMPI_VERSION}.tar.bz2 && \
